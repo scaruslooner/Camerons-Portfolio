@@ -85,3 +85,14 @@
     padding-right: 5%;
   }
 }
+
+
+.links {
+	 right: auto;
+    left: auto;
+	width: auto;
+    max-width: 900px;
+    padding-left: 5%;
+    padding-right: 5%;
+	
+}
