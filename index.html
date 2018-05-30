@@ -84,13 +84,19 @@
       </div>
     </section>
 
-    <!-- Download Section -->
+    <!-- Projects Section -->
     <section id="download" class="download-section content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
           <h2>Projects I've done</h2>
-          <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-          <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+				<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+					<div class="slides"></div>
+					<h3 class="title"></h3>
+					<a class="prev">‹</a>
+					<a class="next">›</a>
+					<a class="play-pause"></a>
+					<ol class="indicator"></ol>
+				</div>
         </div>
       </div>
     </section>
@@ -151,6 +157,18 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+	
+	<!-- IMAGE GALLERY -->
+	<script src="js/blueimp-gallery.min.js"></script>
+	<script>
+		blueimp.Gallery(
+			document.getElementById('links').getElementsByTagName('a'),
+			{
+				container: '#blueimp-gallery-carousel',
+				carousel: true
+			}
+		);
+	</script>
 
   </body>
 
