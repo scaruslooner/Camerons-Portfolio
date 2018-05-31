@@ -21,8 +21,8 @@
     <!-- Custom style -->
     <link href="css/grayscale.min.css" rel="stylesheet">
 	
-	<!-- Image Gallery -->
-    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+	
+    <link href="style.css" type="text/css" rel="stylesheet">
 
   </head>
 
@@ -88,26 +88,23 @@
       <div class="container">
         <div class="col-lg-8 mx-auto">
           <h2>Projects I've done</h2>
-			<div id="links">
-			    <a href="img/test1.jpg" title="test1">
-					<img src="img/test1.jpg" alt="test1">
-				</a> 
-				<a href="images/apple.jpg" title="Apple">
-					<img src="images/thumbnails/apple.jpg" alt="Apple">
-				</a>
-				<a href="images/orange.jpg" title="Orange">
-					<img src="images/thumbnails/orange.jpg" alt="Orange">
-				</a>
+			<div class="slider-holder">
+				<span id="slider-image-1"></span>
+				<span id="slider-image-2"></span>
+				<span id="slider-image-3"></span>
+				<div class="image-holder">
+					<img src="1.jpg" class="slider-image" />
+					<img src="2.jpg" class="slider-image" />
+					<img src="3.jpg" class="slider-image" />
+				</div>
+				<div class="button-holder">
+					<a href="#slider-image-1" class="slider-change"></a>
+					<a href="#slider-image-2" class="slider-change"></a>
+					<a href="#slider-image-3" class="slider-change"></a>
+				</div>
 			</div>
 		  
-				<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
-					<div class="slides"></div>
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-				</div>
+				
         </div>
       </div>
     </section>
@@ -152,7 +149,7 @@
     <!-- Footer -->
     <footer>
       <div class="container text-center">
-        <p>Copyright &copy; Your Website 2018</p>
+        <p>Copyright &copy; Cam 2018</p>
       </div>
     </footer>
 
@@ -169,17 +166,8 @@
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
 	
-	<!-- IMAGE GALLERY -->
-	<script src="js/blueimp-gallery.min.js"></script>
-	<script>
-		blueimp.Gallery(
-			document.getElementById('links').getElementsByTagName('a'),
-			{
-				container: '#blueimp-gallery-carousel',
-				carousel: true
-			}
-		);
-	</script>
+	
+	
 
   </body>
 
