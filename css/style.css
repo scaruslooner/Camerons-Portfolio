@@ -15,8 +15,9 @@ div.gallery:hover {
 }
 
 div.gallery img {
-     margin: auto;
+    margin: auto;
     width:100%;
+	height: auto;
 }
 
 div.desc {
