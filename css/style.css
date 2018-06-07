@@ -2,7 +2,7 @@
 
  
  div.gallery {
-    
+    display: block;
     border: 1px solid #ccc;
     margin: auto;
     
@@ -15,8 +15,8 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    
 }
 
 div.desc {
