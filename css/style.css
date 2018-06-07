@@ -1,13 +1,12 @@
  
-div.work{
+h2.work{
 	
 	text-align: center;
 }
  
  div.gallery {
 	margin: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    
     border: 1px solid #ccc;
     float: left;
     width: 180px;
