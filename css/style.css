@@ -7,7 +7,7 @@
     margin: auto;
     
 	
-    width: 100%;
+    width: 180px;
 }
 
 div.gallery:hover {
@@ -16,7 +16,7 @@ div.gallery:hover {
 
 div.gallery img {
     
-    
+    width: auto;
 }
 
 div.desc {
