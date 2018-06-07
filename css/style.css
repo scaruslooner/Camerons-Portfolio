@@ -4,7 +4,7 @@
  div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    
+    display: block;
     margin-left: auto;
 	margin-right: auto;
     width: 180px;
