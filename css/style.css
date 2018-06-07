@@ -4,9 +4,9 @@
  div.gallery {
     
     border: 1px solid #ccc;
-    display: block;
     
-	
+    
+	width: 50%;
     width: 180px;
 }
 
