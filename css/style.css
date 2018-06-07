@@ -1,12 +1,5 @@
- 
-h2.work{
-	
-	text-align: center;
-}
- 
  div.gallery {
-	margin: 5px;
-    
+    margin: 5px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
