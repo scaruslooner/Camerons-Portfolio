@@ -1,6 +1,12 @@
  
-div.gallery {
-    margin: 5px;
+.work{
+	
+	text-align: center;
+}
+ 
+ div.gallery {
+    margin-left: auto;
+    margin-right: auto;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
